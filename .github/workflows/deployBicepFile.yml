@@ -20,5 +20,5 @@ jobs:
         subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
         resourceGroupName: ${{ secrets.AZURE_RG }}
         template: ./sample.bicep
-        parameters: 'storagePrefix=vivcorp154236 storageSKU=Standard_LRS'
+        parameters: 'storagePrefix=vivek1431123 storageSKU=Standard_LRS'
         failOnStdErr: false
